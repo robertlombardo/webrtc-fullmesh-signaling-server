@@ -1,7 +1,8 @@
 {
-  "name": "WebRTC Full-mesh Signaling Server",
+  "name": "webrtc-fullmesh-signaling-server",
   "version": "1.0.0",
   "description": "A full-mesh signaling server for WebRTC connections.",
+  "url": "https://github.com/robertlombardo/webrtc-fullmesh-signaling-server.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
