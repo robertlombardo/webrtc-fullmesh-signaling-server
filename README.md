@@ -6,7 +6,9 @@ A signaling server for a full-mesh WebRTC network - runs in Node.js
 
 ## Usage
 Just require it in your node server entry file (the default port is 2013):
-`require( 'webrtc-fullmesh-signaling-server' )`
+```js
+require( 'webrtc-fullmesh-signaling-server' )
+```
 
 ## Client Code
 The following is an example using the npm package simple-peer:
