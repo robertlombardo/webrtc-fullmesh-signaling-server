@@ -10,7 +10,7 @@ Just require it in your node server entry file (the default port is 2013):
 
 ## Client Code
 The following is an example using the npm package simple-peer:
-`
+```js
 import SimplePeer from 'simple-peer';
 
 const uuid = /*myCoolUUIDGeneratorFunction()*/
@@ -109,4 +109,4 @@ function sendDataToPeers( data ) {
         }
     }
 }
-`
+```
