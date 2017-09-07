@@ -15,7 +15,9 @@ The following is an example using the npm package simple-peer:
 ```js
 import SimplePeer from 'simple-peer';
 
+const peers = {};
 const uuid = /*myCoolUUIDGeneratorFunction()*/
+var socket;
 
 function startup() {
     socket = io.connect( /*SIGNALING_SERVER_ADDRESS*/, {
