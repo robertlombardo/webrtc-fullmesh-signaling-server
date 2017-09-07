@@ -24,8 +24,7 @@ function startup() {
         reconnectionDelay: 1000,
         reconnectionDelayMax : 5000,
         reconnectionAttempts: 99999
-    });        
-
+    });
 
     socket.on( 'connected', (data)=>{
         console.log( 'got "connected" message from signaling server - data:' );
@@ -58,7 +57,7 @@ function startup() {
 
         var p = peers[data.newPeerId] = new SimplePeer({
             initiator: false,
-            channelName: 'the_esl_chain'
+            channelName: 'my_cool_channel_name'
         });
 
         addPeerListeners( p, data.newPeerId );
