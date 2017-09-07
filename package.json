@@ -1,6 +1,6 @@
 {
   "name": "webrtc-fullmesh-signaling-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A full-mesh signaling server for WebRTC connections.",
   "repository": {
     "type": "git",
@@ -11,7 +11,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Robert Lombardo",
-  "keywords": [ "WebRTC", "full mesh", "full-mesh", "signal", "signaling", "server" ],
+  "keywords": [
+    "WebRTC",
+    "full mesh",
+    "full-mesh",
+    "signal",
+    "signaling",
+    "server"
+  ],
   "license": "ISC",
   "dependencies": {
     "node-static": "^0.7.9",
